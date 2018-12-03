@@ -6,5 +6,6 @@ public class KanjiData : MonoBehaviour {
 
     public string kanjiString = "一番";
     public string romanjiString = "ichiban";
+    public string romanjiStringAlt = null;
     public string englishString = "number one";
 }
