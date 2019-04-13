@@ -6,6 +6,7 @@ using UnityEngine;
 public class TextParser : MonoBehaviour
 {
     public List<KanjiData> kanjiList;
+
     // Use this for initialization
     void Start()
     {
@@ -30,6 +31,7 @@ public class TextParser : MonoBehaviour
             lineToParse = myFile.ReadLine();
 
         }
+        //junk lines below
        // lineToParse = myFile.ReadLine();
 
         //takes the read line and parses it
