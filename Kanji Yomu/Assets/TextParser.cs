@@ -5,8 +5,7 @@ using UnityEngine;
 
 public class TextParser : MonoBehaviour
 {
-    [SerializeField]
-    private List<KanjiData> kanjiList;
+    public List<KanjiData> kanjiList;
     // Use this for initialization
     void Start()
     {
