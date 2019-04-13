@@ -5,12 +5,14 @@ using UnityEngine;
 
 public class TextParser : MonoBehaviour
 {
-    private KanjiData newKanji;
+    [SerializeField]
+    private List<KanjiData> kanjiList;
     // Use this for initialization
     void Start()
     {
-
-        newKanji = GetComponent<KanjiData>();
+        // instantiate variables
+        //KanjiData tempEntry = new KanjiData();
+        kanjiList = new List<KanjiData>();
 
         //opens a file
         System.IO.StreamReader myFile = new System.IO.StreamReader("Assets/TextData/Test.txt");
@@ -18,17 +20,28 @@ public class TextParser : MonoBehaviour
         //each call of ReadLine moves the cursor to the start of the next physical line in the text file afterwards
         //currently has no safeguard when reaching the end of file
         string lineToParse = myFile.ReadLine();
-        lineToParse = myFile.ReadLine();
-        lineToParse = myFile.ReadLine();
+        int counter = 0;
+        while (lineToParse != null)
+        {
+            kanjiList.Add(new KanjiData());
+            ParseLine(lineToParse, kanjiList[counter]);
+
+
+            counter++;
+            lineToParse = myFile.ReadLine();
+
+        }
+       // lineToParse = myFile.ReadLine();
 
         //takes the read line and parses it
         //string lineToParse = "女子会/joshikai/Girl's meeting";
-        ReadLine(lineToParse, newKanji);
-        Debug.Log(newKanji.kanjiString);
+       // ParseLine(lineToParse, kanjiList[0]);
+        //Debug.Log(kanjiList[0].kanjiString);
+        //changesdone
     }
 
     //takes a line from the text file and fills in the appropriate fields in the Kanji Data object
-    private void ReadLine(string parser, KanjiData inputField)
+    private void ParseLine(string parser, KanjiData inputField)
     {
         string[] parts = parser.Split(new[] { '/' });
 
@@ -37,6 +50,7 @@ public class TextParser : MonoBehaviour
         {
             inputField.kanjiString = parts[0];
             inputField.romanjiString = parts[1];
+            inputField.romanjiStringAlt = null;
             inputField.englishString = parts[2];
         }
         //if there are pronunciations

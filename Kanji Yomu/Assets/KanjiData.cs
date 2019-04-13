@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class KanjiData : MonoBehaviour {
+[System.Serializable]
+public class KanjiData {
 
     public string kanjiString = "一番";
     public string romanjiString = "ichiban";
