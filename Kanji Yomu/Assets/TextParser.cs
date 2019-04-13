@@ -24,6 +24,7 @@ public class TextParser : MonoBehaviour
         //takes the read line and parses it
         //string lineToParse = "女子会/joshikai/Girl's meeting";
         ReadLine(lineToParse, newKanji);
+        Debug.Log(newKanji.kanjiString);
     }
 
     //takes a line from the text file and fills in the appropriate fields in the Kanji Data object
