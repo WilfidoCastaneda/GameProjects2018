@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-12-03T14:03:59.337-06:00
-  initializedAtString: 2018-12-03T13:56:20.849-06:00
+  lastUpdatedAtString: 2019-04-19T12:11:27.995-05:00
+  initializedAtString: 2019-04-19T11:54:20.523-05:00
   currentGitRemote:
     name: origin
     url: https://github.com/WilfidoCastaneda/GameProjects2018.git
@@ -24,13 +24,13 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: master
-    tracking: origin/master
+    tracking: 
   currentConfigBranch:
     name: master
     remote:
-      name: origin
-      url: https://github.com/WilfidoCastaneda/GameProjects2018.git
-    trackingBranch: master
+      name: 
+      url: 
+    trackingBranch: 
   currentConfigRemote:
     name: origin
     url: https://github.com/WilfidoCastaneda/GameProjects2018.git

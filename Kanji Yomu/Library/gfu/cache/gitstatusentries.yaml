@@ -12,6 +12,576 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-12-03T14:06:56.829-06:00
-  initializedAtString: 2018-12-03T13:56:21.779-06:00
-  entries: []
+  lastUpdatedAtString: 2019-04-19T12:16:03.428-05:00
+  initializedAtString: 2019-04-19T11:54:20.765-05:00
+  entries:
+  - path: .gitignore
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\.gitignore
+    projectPath: .gitignore
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\GameObjects.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\GameObjects.meta
+    projectPath: Assets\GameObjects.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\GameObjects\Player.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\GameObjects\Player.meta
+    projectPath: Assets\GameObjects\Player.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\GameObjects\Player\Player.prefab
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\GameObjects\Player\Player.prefab
+    projectPath: Assets\GameObjects\Player\Player.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\GameObjects\Player\Player.prefab.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\GameObjects\Player\Player.prefab.meta
+    projectPath: Assets\GameObjects\Player\Player.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\GameObjects\Player\PlayerScript.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\GameObjects\Player\PlayerScript.meta
+    projectPath: Assets\GameObjects\Player\PlayerScript.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\GameObjects\Player\PlayerScript\PlayerController.cs
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\GameObjects\Player\PlayerScript\PlayerController.cs
+    projectPath: Assets\GameObjects\Player\PlayerScript\PlayerController.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\GameObjects\Player\PlayerScript\PlayerController.cs.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\GameObjects\Player\PlayerScript\PlayerController.cs.meta
+    projectPath: Assets\GameObjects\Player\PlayerScript\PlayerController.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\KanjiData.cs
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\KanjiData.cs
+    projectPath: Assets\KanjiData.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\KanjiData.cs.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\KanjiData.cs.meta
+    projectPath: Assets\KanjiData.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins.meta
+    projectPath: Assets\Plugins.meta
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets\Plugins\GitHub.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub.meta
+    projectPath: Assets\Plugins\GitHub.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor.meta
+    projectPath: Assets\Plugins\GitHub\Editor.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+    projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\credits.txt
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\credits.txt
+    projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\credits.txt.meta
+    projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\eula.txt
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\eula.txt
+    projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\eula.txt.meta
+    projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\libsfw.bundle
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\libsfw.so
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\libsfw.so
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+    projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\x64.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\x64.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\x86.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\x86.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scenes.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Scenes.meta
+    projectPath: Assets\Scenes.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scenes\SampleScene.unity
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scenes\SampleScene.unity.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Scenes\SampleScene.unity.meta
+    projectPath: Assets\Scenes\SampleScene.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scenes\TestScene.unity
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Scenes\TestScene.unity
+    projectPath: Assets\Scenes\TestScene.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scenes\TestScene.unity.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Scenes\TestScene.unity.meta
+    projectPath: Assets\Scenes\TestScene.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Sprites.meta
+    projectPath: Assets\Sprites.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Player.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Sprites\Player.meta
+    projectPath: Assets\Sprites\Player.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Player\GIMPFILES.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Sprites\Player\GIMPFILES.meta
+    projectPath: Assets\Sprites\Player\GIMPFILES.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Player\GIMPFILES\PlayerGimpFile.xcf
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Sprites\Player\GIMPFILES\PlayerGimpFile.xcf
+    projectPath: Assets\Sprites\Player\GIMPFILES\PlayerGimpFile.xcf
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Player\GIMPFILES\PlayerGimpFile.xcf.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Sprites\Player\GIMPFILES\PlayerGimpFile.xcf.meta
+    projectPath: Assets\Sprites\Player\GIMPFILES\PlayerGimpFile.xcf.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Player\PlayerSprite.png
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Sprites\Player\PlayerSprite.png
+    projectPath: Assets\Sprites\Player\PlayerSprite.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Player\PlayerSprite.png.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Sprites\Player\PlayerSprite.png.meta
+    projectPath: Assets\Sprites\Player\PlayerSprite.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\TextData.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\TextData.meta
+    projectPath: Assets\TextData.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\TextData\1-0.txt
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\TextData\1-0.txt
+    projectPath: Assets\TextData\1-0.txt
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\TextData\1-0.txt.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\TextData\1-0.txt.meta
+    projectPath: Assets\TextData\1-0.txt.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\TextData\Test.txt
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\TextData\Test.txt
+    projectPath: Assets\TextData\Test.txt
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\TextData\Test.txt.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\TextData\Test.txt.meta
+    projectPath: Assets\TextData\Test.txt.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\TextParser.cs
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\TextParser.cs
+    projectPath: Assets\TextParser.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\TextParser.cs.meta
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\TextParser.cs.meta
+    projectPath: Assets\TextParser.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Packages\manifest.json
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Packages\manifest.json
+    projectPath: Packages\manifest.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: ProjectSettings\AudioManager.asset
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\ProjectSettings\AudioManager.asset
+    projectPath: ProjectSettings\AudioManager.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: ProjectSettings\ClusterInputManager.asset
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\ProjectSettings\ClusterInputManager.asset
+    projectPath: ProjectSettings\ClusterInputManager.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: ProjectSettings\DynamicsManager.asset
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\ProjectSettings\DynamicsManager.asset
+    projectPath: ProjectSettings\DynamicsManager.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: ProjectSettings\EditorBuildSettings.asset
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\ProjectSettings\EditorBuildSettings.asset
+    projectPath: ProjectSettings\EditorBuildSettings.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: ProjectSettings\EditorSettings.asset
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\ProjectSettings\EditorSettings.asset
+    projectPath: ProjectSettings\EditorSettings.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: ProjectSettings\GraphicsSettings.asset
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\ProjectSettings\GraphicsSettings.asset
+    projectPath: ProjectSettings\GraphicsSettings.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: ProjectSettings\InputManager.asset
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\ProjectSettings\InputManager.asset
+    projectPath: ProjectSettings\InputManager.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: ProjectSettings\NavMeshAreas.asset
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\ProjectSettings\NavMeshAreas.asset
+    projectPath: ProjectSettings\NavMeshAreas.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: ProjectSettings\NetworkManager.asset
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\ProjectSettings\NetworkManager.asset
+    projectPath: ProjectSettings\NetworkManager.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: ProjectSettings\Physics2DSettings.asset
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\ProjectSettings\Physics2DSettings.asset
+    projectPath: ProjectSettings\Physics2DSettings.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: ProjectSettings\PresetManager.asset
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\ProjectSettings\PresetManager.asset
+    projectPath: ProjectSettings\PresetManager.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: ProjectSettings\ProjectSettings.asset
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\ProjectSettings\ProjectSettings.asset
+    projectPath: ProjectSettings\ProjectSettings.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: ProjectSettings\ProjectVersion.txt
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\ProjectSettings\ProjectVersion.txt
+    projectPath: ProjectSettings\ProjectVersion.txt
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: ProjectSettings\QualitySettings.asset
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\ProjectSettings\QualitySettings.asset
+    projectPath: ProjectSettings\QualitySettings.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: ProjectSettings\TagManager.asset
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\ProjectSettings\TagManager.asset
+    projectPath: ProjectSettings\TagManager.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: ProjectSettings\TimeManager.asset
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\ProjectSettings\TimeManager.asset
+    projectPath: ProjectSettings\TimeManager.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: ProjectSettings\UnityConnectSettings.asset
+    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\ProjectSettings\UnityConnectSettings.asset
+    projectPath: ProjectSettings\UnityConnectSettings.asset
+    originalPath: 
+    status: 1
+    staged: 0

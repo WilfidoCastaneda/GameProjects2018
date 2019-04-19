@@ -5,8 +5,9 @@ using UnityEngine;
 
 public class TextParser : MonoBehaviour
 {
-    public List<KanjiData> kanjiList;
 
+    public string TextFileName;
+    public List<KanjiData> kanjiList;
     // Use this for initialization
     void Start()
     {
@@ -15,7 +16,9 @@ public class TextParser : MonoBehaviour
         kanjiList = new List<KanjiData>();
 
         //opens a file
-        System.IO.StreamReader myFile = new System.IO.StreamReader("Assets/TextData/Test.txt");
+        //System.IO.StreamReader myFile = new System.IO.StreamReader("Assets/TextData/Test.txt");
+
+        System.IO.StreamReader myFile = new System.IO.StreamReader("Assets/TextData/" + TextFileName + ".txt");
 
         //each call of ReadLine moves the cursor to the start of the next physical line in the text file afterwards
         //currently has no safeguard when reaching the end of file
