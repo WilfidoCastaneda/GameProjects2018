@@ -32,11 +32,18 @@ public class PlayerController : MonoBehaviour {
 
             else
             {
+                //submit and disable text box
                 activeField = false;
                 TextField.interactable = false;
                 TextField.text = "";
             }
 
+        }
+
+        if (Input.GetButtonDown("Shoot") && activeField == true)
+        {
+            //submit only. does not disable text box
+            TextField.text = "";
         }
 		
 	}
