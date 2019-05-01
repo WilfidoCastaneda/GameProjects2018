@@ -8,6 +8,7 @@ public class TextParser : MonoBehaviour
 
     public string TextFileName;
     public List<KanjiData> kanjiList;
+
     // Use this for initialization
     void Start()
     {
@@ -23,6 +24,7 @@ public class TextParser : MonoBehaviour
         //each call of ReadLine moves the cursor to the start of the next physical line in the text file afterwards
         //currently has no safeguard when reaching the end of file
         string lineToParse = myFile.ReadLine();
+
         int counter = 0;
         while (lineToParse != null)
         {
