@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-04-19T12:16:03.428-05:00
-  initializedAtString: 2019-04-19T11:54:20.765-05:00
+  lastUpdatedAtString: 2019-04-30T21:58:24.877-05:00
+  initializedAtString: 2019-04-30T21:58:24.877-05:00
   entries:
   - path: .gitignore
     fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\.gitignore
@@ -75,12 +75,6 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Plugins.meta
-    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins.meta
-    projectPath: Assets\Plugins.meta
-    originalPath: 
-    status: 4
-    staged: 1
   - path: Assets\Plugins\GitHub.meta
     fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\Plugins\GitHub.meta
     projectPath: Assets\Plugins\GitHub.meta
@@ -462,18 +456,6 @@ MonoBehaviour:
   - path: Assets\TextData\Test.txt.meta
     fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\TextData\Test.txt.meta
     projectPath: Assets\TextData\Test.txt.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\TextParser.cs
-    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\TextParser.cs
-    projectPath: Assets\TextParser.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\TextParser.cs.meta
-    fullPath: C:\Users\wilfido\Desktop\GameProjects2018\Kanji Yomu\Assets\TextParser.cs.meta
-    projectPath: Assets\TextParser.cs.meta
     originalPath: 
     status: 1
     staged: 0
