@@ -62,10 +62,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Enemy.cs" />
     <Compile Include="Assets\GameObjects\Player\PlayerScript\PlayerController.cs" />
-    <Compile Include="Assets\KanjiData.cs" />
-    <Compile Include="Assets\TextParser.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\EnemyListManager.cs" />
+    <Compile Include="Assets\Scripts\EnemyListObject.cs" />
+    <Compile Include="Assets\Scripts\KanjiData.cs" />
+    <Compile Include="Assets\Scripts\TextParser.cs" />
     <None Include="Assets\TextData\Test.txt" />
     <None Include="Assets\TextData\1-0.txt" />
     <Reference Include="Unity.Timeline.Editor">
