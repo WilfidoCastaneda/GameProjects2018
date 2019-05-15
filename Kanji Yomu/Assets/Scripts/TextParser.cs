@@ -5,9 +5,10 @@ using UnityEngine;
 
 public class TextParser : MonoBehaviour
 {
-
-    public string TextFileName;
     public List<KanjiData> kanjiList;
+    public string TextFileName;
+    public int numKanji;
+    public GameObject initializer;
 
     // Use this for initialization
     void Start()
@@ -36,6 +37,8 @@ public class TextParser : MonoBehaviour
             lineToParse = myFile.ReadLine();
 
         }
+        numKanji = counter;
+        GameObject.Instantiate(initializer);
         //junk lines below
        // lineToParse = myFile.ReadLine();
 

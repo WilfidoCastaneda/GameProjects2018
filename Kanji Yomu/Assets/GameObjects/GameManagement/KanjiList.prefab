@@ -92,5 +92,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bfe0643d874844daff9b9d394cd2e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextFileName: Test
   kanjiList: []
+  TextFileName: Test
+  numKanji: 0
+  initializer: {fileID: 1426627905408965137, guid: 19b1134b51644b0458036ebbca232770,
+    type: 3}

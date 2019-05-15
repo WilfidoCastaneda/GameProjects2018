@@ -1,16 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using System;
 
 public class PlayerController : MonoBehaviour {
 
     // Use this for initialization
     [SerializeField]
-    private UnityEngine.UI.InputField TextField;
+    public UnityEngine.UI.InputField TextField;
 
     [SerializeField]
-    private EnemyListManager activeEnemyManager;
+    public EnemyListManager activeEnemyManager;
 
     [SerializeField]
     private bool activeField;
@@ -19,7 +20,7 @@ public class PlayerController : MonoBehaviour {
         activeField = false;
         TextField = GameObject.Find("Canvas").GetComponentInChildren<UnityEngine.UI.InputField>();
         TextField.interactable = false;
-        activeEnemyManager = GameObject.Find("Enemy Manager").GetComponent<EnemyListManager>();
+        //activeEnemyManager = GameObject.Find("Enemy Manager").GetComponent<EnemyListManager>();
 	}
 	
 	// Update is called once per frame
@@ -56,7 +57,12 @@ public class PlayerController : MonoBehaviour {
                 activeEnemyManager.CheckList(TextField.text.Substring(0, strlen - 1));
             }
             TextField.text = "";
-        } 
+        }
+
+        if (Input.GetKeyDown(KeyCode.Comma))
+        {
+            SceneManager.LoadScene(1);
+        }
 		
 	}
 

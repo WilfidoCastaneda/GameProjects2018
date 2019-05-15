@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\EnemyListManager.cs" />
     <Compile Include="Assets\Scripts\EnemyListObject.cs" />
+    <Compile Include="Assets\Scripts\GameInitializer.cs" />
     <Compile Include="Assets\Scripts\KanjiData.cs" />
     <Compile Include="Assets\Scripts\TextParser.cs" />
     <None Include="Assets\TextData\Test.txt" />
