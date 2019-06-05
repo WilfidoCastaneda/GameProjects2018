@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour {
         //activeEnemyManager = GameObject.Find("Enemy Manager").GetComponent<EnemyListManager>();
         myBody = this.GetComponent<Rigidbody2D>();
         walkingSpeed = NormalSpeed;
+        //recycling the same space to avoid constant creation of vectors
         myAngle = new Vector2();
     }
 	
@@ -93,4 +94,25 @@ public class PlayerController : MonoBehaviour {
 
     }
 
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            KillSelfProtocol();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Bullet")
+        {
+            KillSelfProtocol();
+        }
+    }
+
+    private void KillSelfProtocol()
+    {
+        Destroy(this.gameObject);
+    }
 }
