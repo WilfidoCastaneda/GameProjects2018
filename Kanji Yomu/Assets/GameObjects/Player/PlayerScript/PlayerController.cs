@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour {
 
     [SerializeField]
     public EnemyListManager activeEnemyManager;
+    public GameObject gameOver;
 
     private Rigidbody2D myBody;
 
@@ -81,19 +82,21 @@ public class PlayerController : MonoBehaviour {
             SceneManager.LoadScene(1);
         }
 
+    }
+    private void FixedUpdate()
+    {
         if (Input.GetButton("Horizontal"))
         {
             myAngle.Set(Input.GetAxis("Horizontal") * walkingSpeed, 0);
             myBody.AddForce(myAngle);
         }
-        if (Input.GetButton("Vertical") )
+        if (Input.GetButton("Vertical"))
         {
             myAngle.Set(0, Input.GetAxis("Vertical") * walkingSpeed);
             myBody.AddForce(myAngle);
         }
 
     }
-
 
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -113,6 +116,7 @@ public class PlayerController : MonoBehaviour {
 
     private void KillSelfProtocol()
     {
+        gameOver.SetActive(true);
         Destroy(this.gameObject);
     }
 }

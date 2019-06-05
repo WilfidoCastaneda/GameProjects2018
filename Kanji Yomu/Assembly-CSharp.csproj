@@ -63,15 +63,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\GameObjects\Enemy\Scripts\Bullet.cs" />
+    <Compile Include="Assets\GameObjects\Enemy\Scripts\BulletGenerator.cs" />
     <Compile Include="Assets\GameObjects\Enemy\Scripts\Enemy.cs" />
+    <Compile Include="Assets\GameObjects\Enemy\Scripts\EnemyMoveSide.cs" />
     <Compile Include="Assets\GameObjects\Environment\ScrollScript.cs" />
     <Compile Include="Assets\GameObjects\Player\PlayerScript\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\GameManagement\BulletCatcherScript.cs" />
     <Compile Include="Assets\Scripts\GameManagement\BulletPool.cs" />
     <Compile Include="Assets\Scripts\GameManagement\EnemyListManager.cs" />
     <Compile Include="Assets\Scripts\GameManagement\EnemyListObject.cs" />
+    <Compile Include="Assets\Scripts\GameManagement\ForceQuit.cs" />
     <Compile Include="Assets\Scripts\GameManagement\GameInitializer.cs" />
+    <Compile Include="Assets\Scripts\GameManagement\GameOverScreen.cs" />
     <Compile Include="Assets\Scripts\GameManagement\KanjiData.cs" />
     <Compile Include="Assets\Scripts\GameManagement\TextParser.cs" />
+    <Compile Include="Assets\Scripts\GameManagement\TitleScreen.cs" />
     <None Include="Assets\TextData\G23.txt" />
     <None Include="Assets\TextData\Test.txt" />
     <None Include="Assets\TextData\G22.txt" />

@@ -44,4 +44,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentEnemies: []
+  gameOver: {fileID: 3363133008527760441, guid: 9ba5d1b0c00026e46b12f8bc733a6354,
+    type: 3}
   numEnemies: 0

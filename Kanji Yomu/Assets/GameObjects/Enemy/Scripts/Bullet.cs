@@ -8,9 +8,12 @@ public class Bullet : MonoBehaviour
     public float yDir;
     private float xActual;
     private float yActual;
+    private Rigidbody2D myBody;
 
     private void Start()
     {
+
+        myBody = this.gameObject.GetComponent<Rigidbody2D>();
         xActual = xDir / 100;
         yActual = yDir / 100;
     }
@@ -18,6 +21,8 @@ public class Bullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        this.transform.position += new Vector3(xActual, yActual,0);    
+        //this.transform.position += new Vector3(xActual, yActual,0);    
+        //myBody.AddForce(new Vector2(0, -5));
     }
+
 }

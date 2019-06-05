@@ -7,6 +7,7 @@ public class EnemyListManager : MonoBehaviour
 
 
     public List<EnemyListObject> currentEnemies;
+    public GameObject gameOver;
     public int numEnemies;
 
     // Start is called before the first frame update
@@ -14,19 +15,25 @@ public class EnemyListManager : MonoBehaviour
     {
         GameObject[] foundEnemy = GameObject.FindGameObjectsWithTag("Enemy");
         int enemySize = foundEnemy.Length;
+        gameOver = GameObject.Find("GameOver");
 
         for (int i = 0; i < enemySize; i++)
         {
             currentEnemies.Add(new EnemyListObject(foundEnemy[i]));
             numEnemies++;
         }
-        
+
+        gameOver.SetActive(false);
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        
+        if (numEnemies == 0)
+        {
+            gameOver.SetActive(true);
+        }
+
     }
     //Checks the enemy list for any matches to the player input. If there is, then it is removed from the list and deleted
     public bool CheckList(string playerInput)
