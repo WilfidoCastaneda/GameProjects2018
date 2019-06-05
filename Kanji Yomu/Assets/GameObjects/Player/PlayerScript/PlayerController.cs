@@ -18,12 +18,12 @@ public class PlayerController : MonoBehaviour {
 
     [Header("My Data")]
     [SerializeField]
-    private bool activeField;
 
     public float NormalSpeed;
     public float SlowSpeed;
     private float walkingSpeed;
-
+    private Vector2 myAngle;
+    private bool activeField;
 
     void Start () {
         activeField = false;
@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour {
         //activeEnemyManager = GameObject.Find("Enemy Manager").GetComponent<EnemyListManager>();
         myBody = this.GetComponent<Rigidbody2D>();
         walkingSpeed = NormalSpeed;
+        myAngle = new Vector2();
     }
 	
 	// Update is called once per frame
@@ -81,11 +82,13 @@ public class PlayerController : MonoBehaviour {
 
         if (Input.GetButton("Horizontal"))
         {
-            myBody.AddForce(new Vector2(Input.GetAxis("Horizontal") * walkingSpeed, 0));
+            myAngle.Set(Input.GetAxis("Horizontal") * walkingSpeed, 0);
+            myBody.AddForce(myAngle);
         }
-        if (Input.GetButton("Vertical"))
+        if (Input.GetButton("Vertical") )
         {
-            myBody.AddForce(new Vector2(0 , Input.GetAxis("Vertical") * walkingSpeed));
+            myAngle.Set(0, Input.GetAxis("Vertical") * walkingSpeed);
+            myBody.AddForce(myAngle);
         }
 
     }
