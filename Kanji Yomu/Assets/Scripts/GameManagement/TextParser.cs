@@ -9,6 +9,7 @@ public class TextParser : MonoBehaviour
     public string TextFileName;
     public int numKanji;
     public GameObject initializer;
+    public bool initialized = false;
 
     // Use this for initialization
     void Start()
@@ -21,7 +22,10 @@ public class TextParser : MonoBehaviour
         //System.IO.StreamReader myFile = new System.IO.StreamReader("Assets/TextData/Test.txt");
 
         System.IO.StreamReader myFile = new System.IO.StreamReader("Assets/TextData/" + TextFileName + ".txt");
-
+        if (myFile == null)
+        {
+            Application.Quit();
+        }
         //each call of ReadLine moves the cursor to the start of the next physical line in the text file afterwards
         //currently has no safeguard when reaching the end of file
         string lineToParse = myFile.ReadLine();
@@ -38,6 +42,8 @@ public class TextParser : MonoBehaviour
 
         }
         numKanji = counter;
+        Debug.Log("I have " + kanjiList.Count + " kanjis in my list.");
+        initialized = true;
         GameObject.Instantiate(initializer);
         //junk lines below
        // lineToParse = myFile.ReadLine();

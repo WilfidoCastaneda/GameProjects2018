@@ -12,6 +12,8 @@ public class GameInitializer : MonoBehaviour
         //Get the Kanji List
         TextParser kanjiList = GameObject.Find("KanjiList").GetComponent<TextParser>();
 
+        //Equals(kanjiList.initialized, true);
+        Debug.Log("Game Initialized");
         //Find existing enemies to control
         GameObject[] foundEnemy = GameObject.FindGameObjectsWithTag("Enemy");
 
@@ -32,7 +34,7 @@ public class GameInitializer : MonoBehaviour
         }
 
         //create the enemy list
-        GameObject.Instantiate(enemyManager);
+        Instantiate(enemyManager);
         //fix the pointers
         GameObject.Find("Player").GetComponent<PlayerController>().TextField = GameObject.Find("Canvas").GetComponentInChildren<UnityEngine.UI.InputField>();
         GameObject.Find("Player").GetComponent<PlayerController>().activeEnemyManager = GameObject.Find("Enemy Manager(Clone)").GetComponent<EnemyListManager>();

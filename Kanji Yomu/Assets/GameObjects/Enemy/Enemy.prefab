@@ -57,6 +57,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -153,6 +154,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -194,7 +196,7 @@ MonoBehaviour:
     romanjiString: ichiban
     romanjiStringAlt: 
     englishString: number one
-  textField: {fileID: 0}
+  textField: {fileID: 6401559791547887659}
 --- !u!61 &6457647153758198301
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -254,7 +256,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc7c71facd093db48ab4cceeb862e85c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPool: {fileID: 0}
+  bulletPool: {fileID: 2963498394350356593, guid: d618a84dab4686e4984006d811bde12e,
+    type: 3}
   linesPerSpread: 0
   spreadAngle: 0
   numSpreads: 0

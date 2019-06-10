@@ -7,7 +7,7 @@ public class EnemyListManager : MonoBehaviour
 
 
     public List<EnemyListObject> currentEnemies;
-    public GameObject gameOver;
+    private GameObject gameOver;
     public int numEnemies;
 
     // Start is called before the first frame update
@@ -15,8 +15,14 @@ public class EnemyListManager : MonoBehaviour
     {
         GameObject[] foundEnemy = GameObject.FindGameObjectsWithTag("Enemy");
         int enemySize = foundEnemy.Length;
-        gameOver = GameObject.Find("GameOver");
-
+        for (int i = 0; i < 10; i++) 
+        {
+            gameOver = GameObject.Find("Canvas").transform.GetChild(i).gameObject;
+            if (gameOver.name == "GameOver")
+            {
+                break;
+            }
+        }
         for (int i = 0; i < enemySize; i++)
         {
             currentEnemies.Add(new EnemyListObject(foundEnemy[i]));

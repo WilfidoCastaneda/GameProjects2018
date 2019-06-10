@@ -29,12 +29,22 @@ public class PlayerController : MonoBehaviour {
     void Start () {
         activeField = false;
         TextField = GameObject.Find("Canvas").GetComponentInChildren<UnityEngine.UI.InputField>();
+        for (int i = 0; i < 10; i++)
+        {
+            gameOver = GameObject.Find("Canvas").transform.GetChild(i).gameObject;
+            if (gameOver.name == "GameOver")
+            {
+                break;
+            }
+        }
+        gameOver.SetActive(false);
         TextField.interactable = false;
         //activeEnemyManager = GameObject.Find("Enemy Manager").GetComponent<EnemyListManager>();
         myBody = this.GetComponent<Rigidbody2D>();
         walkingSpeed = NormalSpeed;
         //recycling the same space to avoid constant creation of vectors
         myAngle = new Vector2();
+        //activeEnemyManager = GameObject.Find("Enemy Manager(Clone)").GetComponent<EnemyListManager>();
     }
 	
 	// Update is called once per frame

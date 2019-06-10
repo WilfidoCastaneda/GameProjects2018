@@ -57,6 +57,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -97,3 +98,4 @@ MonoBehaviour:
   numKanji: 0
   initializer: {fileID: 1426627905408965137, guid: 19b1134b51644b0458036ebbca232770,
     type: 3}
+  initialized: 0
