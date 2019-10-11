@@ -1,2 +1,2 @@
 # GameProjects2018
-Secret Game projects!
+Self made game projects!
